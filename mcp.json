@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "here-location": {
+      "type": "streamable-http",
+      "url": "https://hlr.here.ai/mcp"
+    },
+    "here-docs": {
+      "type": "streamable-http",
+      "url": "https://docs.here.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "here-location-reasoning-plugin",
+  "version": "1.0.0",
+  "description": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+  "author": {
+    "name": "HERE Technologies",
+    "url": "https://www.here.com"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["here-maps", "location-reasoning", "location-services", "geocoding", "routing", "ev-routing", "public-transit", "isoline", "traffic-flow", "poi-discovery", "matrix-routing", "map-visualization", "navigation", "documentation", "docs"]
+}
