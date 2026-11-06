@@ -1,0 +1,40 @@
+{
+    "name": "here-location-reasoning-plugin",
+    "version": "1.0.0",
+    "description": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+    "author": {
+        "name": "HERE Technologies",
+        "url": "https://www.here.com"
+    },
+    "homepage": "https://docs.here.com/location-reasoning/docs/hlroverview",
+    "repository": "https://github.com/heremaps/here-location-reasoning-plugin",
+    "license": "Apache-2.0",
+    "keywords": ["here-maps", "location-reasoning", "location-services", "geocoding", "routing", "ev-routing", "public-transit", "isoline", "traffic-flow", "poi-discovery", "matrix-routing", "map-visualization", "navigation", "here-docs"],
+    "mcpServers": "./mcp.json",
+    "skills": "./skills/",
+    "interface": {
+        "displayName": "HERE Location Reasoning",
+        "shortDescription": "HERE location intelligence",
+        "longDescription": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+        "developerName": "HERE Technologies",
+        "category": "Developer Tools",
+        "capabilities": [
+            "Find places",
+            "Calculate routes",
+            "Matrix routing",
+            "Check traffic",
+            "Map visualization"
+        ],
+        "websiteURL": "https://docs.here.com/location-reasoning/docs/hlroverview",
+        "supportURL": "https://www.here.com/contact",
+        "privacyPolicyURL": "https://www.here.com/en-gb/privacy",
+        "termsOfServiceURL": "https://www.here.com/en-gb/terms",
+        "defaultPrompt": [
+            "Geocode Alexanderplatz, Berlin and show it on a map.",
+            "Plan a driving route from Paris to Berlin, accounting for current traffic.",
+            "Show me how to connect HERE Location Reasoning to my agent as an MCP server."
+        ],
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.svg"
+    }
+}

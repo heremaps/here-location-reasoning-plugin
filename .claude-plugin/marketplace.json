@@ -1,0 +1,19 @@
+{
+    "name": "here-technologies",
+    "metadata": {
+        "description": "HERE Technologies plugins",
+        "version": "1.0.0"
+    },
+    "owner": {
+        "name": "HERE Technologies",
+        "email": "support@here.com"
+    },
+    "plugins": [
+        {
+            "name": "here-location-reasoning-plugin",
+            "description": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+            "source": "./",
+            "category": "location-intelligence"
+        }
+    ]
+}

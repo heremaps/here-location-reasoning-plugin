@@ -21,6 +21,28 @@ A HERE platform account with HERE Location Reasoning access.
 ## Setup
 
 - Install the plugin in your client
+
+    **Kiro CLI**
+    ```
+    kiro-cli powers install here-location-reasoning-plugin
+    ```
+
+    **Claude Code CLI**
+    ```
+    claude plugin install here-location-reasoning-plugin --marketplace heremaps/here-location-reasoning-plugin
+    ```
+
+    **GitHub Copilot CLI**
+    ```
+    copilot plugin install heremaps/here-location-reasoning-plugin
+    ```
+
+    **Codex CLI**
+    ```
+    codex plugin marketplace add heremaps/here-location-reasoning-plugin
+    codex plugin add here-location-reasoning-plugin --marketplace here-technologies
+    ```
+
 - Authenticate the HERE Location Reasoning MCP
 
 ---
@@ -35,24 +57,6 @@ A HERE platform account with HERE Location Reasoning access.
 
 - Example prompt: "How can I programmatically access the HERE Location Reasoning MCP?"
  
----
-
-## Layout
-
-```
-here-location-reasoning-plugin/
-├── plugin.json                          # Plugin manifest
-├── mcp.json                             # MCP server configuration
-├── README.md
-├── skills/
-│   ├── location-actions/
-│   │   └── SKILL.md                     # Using HERE Location Reasoning tools
-│   └── here-docs/
-│       └── SKILL.md                     # Answering HERE product/API questions
-└── dev.kiro/
-    └── steering/
-        └── capability-routing.md        # Kiro-only capability router; other clients ignore it
-```
 ---
 
 ## Support contact
