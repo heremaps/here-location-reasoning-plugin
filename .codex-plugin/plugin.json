@@ -1,12 +1,12 @@
 {
     "name": "here-location-reasoning-plugin",
-    "version": "1.0.0",
-    "description": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+    "version": "1.1.0",
+    "description": "Give your agent HERE location awareness (geocoding, place discovery, multimodal routing, traffic, interactive maps) through the HERE Location Reasoning MCP, plus access to its documentation.",
     "author": {
         "name": "HERE Technologies",
         "url": "https://www.here.com"
     },
-    "homepage": "https://docs.here.com/location-reasoning/docs/hlroverview",
+    "homepage": "https://www.here.com/solutions/here-location-reasoning",
     "repository": "https://github.com/heremaps/here-location-reasoning-plugin",
     "license": "Apache-2.0",
     "keywords": ["here-maps", "location-reasoning", "location-services", "geocoding", "routing", "ev-routing", "public-transit", "isoline", "traffic-flow", "poi-discovery", "matrix-routing", "map-visualization", "navigation", "here-docs"],
@@ -15,7 +15,7 @@
     "interface": {
         "displayName": "HERE Location Reasoning",
         "shortDescription": "HERE location intelligence",
-        "longDescription": "Give your agent HERE location awareness and HERE documentation access — from geocoding, place discovery, multimodal routing, traffic, and interactive maps, to searching and fetching HERE product docs and API references through the MCP.",
+        "longDescription": "Give your agent HERE location awareness (geocoding, place discovery, multimodal routing, traffic, interactive maps) through the HERE Location Reasoning MCP, plus access to its documentation.",
         "developerName": "HERE Technologies",
         "category": "Developer Tools",
         "capabilities": [
@@ -25,14 +25,13 @@
             "Check traffic",
             "Map visualization"
         ],
-        "websiteURL": "https://docs.here.com/location-reasoning/docs/hlroverview",
+        "websiteURL": "https://www.here.com/solutions/here-location-reasoning",
         "supportURL": "https://www.here.com/contact",
         "privacyPolicyURL": "https://www.here.com/en-gb/privacy",
         "termsOfServiceURL": "https://www.here.com/en-gb/terms",
         "defaultPrompt": [
-            "Geocode Alexanderplatz, Berlin and show it on a map.",
-            "Plan a driving route from Paris to Berlin, accounting for current traffic.",
-            "Show me how to connect HERE Location Reasoning to my agent as an MCP server."
+            "Show me Italian restaurants near Union Square in San Francisco.",
+            "Give me walking directions from the Colosseum to the Vatican in Rome."
         ],
         "composerIcon": "./assets/logo.svg",
         "logo": "./assets/logo.svg"
