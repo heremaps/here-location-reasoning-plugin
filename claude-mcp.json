@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "here-location-reasoning": {
+      "type": "streamable-http",
+      "url": "https://hlr.here.ai/mcp"
+    },
+    "here-docs": {
+      "type": "streamable-http",
+      "url": "https://docs.here.com/mcp?projects=location-reasoning"
+    }
+  }
+}

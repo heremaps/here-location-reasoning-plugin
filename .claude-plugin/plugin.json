@@ -11,7 +11,8 @@
     "repository": "https://github.com/heremaps/here-location-reasoning-plugin",
     "license": "Apache-2.0",
     "keywords": ["here-maps", "location-reasoning", "location-services", "geocoding", "routing", "ev-routing", "public-transit", "isoline", "traffic-flow", "poi-discovery", "matrix-routing", "map-visualization", "navigation", "here-docs"],
-    "mcpServers": "./mcp.json",
+    "mcpServers": "./claude-mcp.json",
     "skills": "./skills/",
-    "privacyPolicyUrl": "https://www.here.com/en-gb/privacy"
+    "privacyPolicyUrl": "https://www.here.com/en-gb/privacy",
+    "termsOfServiceUrl": "https://www.here.com/en-gb/terms"
 }
